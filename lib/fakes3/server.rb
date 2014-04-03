@@ -45,7 +45,7 @@ module FakeS3
       @store = store
       @hostname = hostname
       @port = server.config[:Port]
-      @root_hostnames = [hostname,'localhost','s3.amazonaws.com','s3.localhost']
+      @root_hostnames = [hostname,'localhost','s3.amazonaws.com','s3.localhost','localh.ifttt.com']
     end
 
     def do_GET(request, response)
